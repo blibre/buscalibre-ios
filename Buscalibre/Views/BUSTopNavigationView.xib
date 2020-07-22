@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BUSTopNavigationView">
+            <connections>
+                <outlet property="backButton" destination="CaK-K7-tXr" id="IHY-mH-nZj"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="wnH-WE-Vks"/>
+                <outlet property="forwardButton" destination="p9n-aR-s8F" id="1O9-ef-EEf"/>
+                <outlet property="helpButton" destination="tdy-5D-nHH" id="pOZ-Bm-H8F"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CaK-K7-tXr">
+                    <rect key="frame" x="5" y="22" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="3ao-Ju-Zpx"/>
+                        <constraint firstAttribute="width" constant="40" id="xzW-uI-RiG"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                    <state key="normal" image="Chevron-Left-White-40px">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="W6s-Kf-G4N"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9n-aR-s8F">
+                    <rect key="frame" x="50" y="22" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="XN4-YN-ou2"/>
+                        <constraint firstAttribute="width" constant="40" id="iTb-EY-zwh"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                    <state key="normal" image="Chevron-Right-White-40px">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="forwardButtonAction:" destination="-1" eventType="touchUpInside" id="uer-CQ-Pcc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sN-61-wg4">
+                    <rect key="frame" x="100" y="22" width="120" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="Bta-lp-rtg"/>
+                        <constraint firstAttribute="height" constant="40" id="viY-8s-1Bx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="30" minY="10" maxX="10" maxY="10"/>
+                    <state key="normal" title="Cambiar Tienda">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="storesButtonAction:" destination="-1" eventType="touchUpInside" id="dPg-ap-NCw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJ9-we-06k" userLabel="Cart Button">
+                    <rect key="frame" x="280" y="24.5" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="7SA-0j-sXQ"/>
+                        <constraint firstAttribute="width" constant="35" id="MiQ-RW-5sf"/>
+                    </constraints>
+                    <state key="normal" image="cart3"/>
+                    <connections>
+                        <action selector="cartButtonAction:" destination="-1" eventType="touchUpInside" id="3Po-NG-URF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdy-5D-nHH">
+                    <rect key="frame" x="240" y="24.5" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="PKe-nw-3gr"/>
+                        <constraint firstAttribute="height" constant="35" id="dY6-4M-fN4"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="question"/>
+                    <connections>
+                        <action selector="helpButtonAction:" destination="-1" eventType="touchUpInside" id="9rz-io-DDe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.99941521879999995" green="0.39775389430000002" blue="0.014902693220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kJ9-we-06k" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" constant="-5" id="5pz-6G-Zo7"/>
+                <constraint firstItem="CaK-K7-tXr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="Bv2-Qn-C80"/>
+                <constraint firstItem="p9n-aR-s8F" firstAttribute="leading" secondItem="CaK-K7-tXr" secondAttribute="trailing" constant="5" id="GcN-ot-odz"/>
+                <constraint firstItem="tdy-5D-nHH" firstAttribute="centerY" secondItem="9sN-61-wg4" secondAttribute="centerY" id="KCn-kd-aMC"/>
+                <constraint firstItem="tdy-5D-nHH" firstAttribute="trailing" secondItem="kJ9-we-06k" secondAttribute="leading" constant="-5" id="OnI-Kk-Sir"/>
+                <constraint firstAttribute="bottom" secondItem="CaK-K7-tXr" secondAttribute="bottom" constant="2" id="Uze-Jd-hZY"/>
+                <constraint firstItem="kJ9-we-06k" firstAttribute="centerY" secondItem="9sN-61-wg4" secondAttribute="centerY" id="XIe-e3-CSA"/>
+                <constraint firstItem="9sN-61-wg4" firstAttribute="centerY" secondItem="p9n-aR-s8F" secondAttribute="centerY" id="iQA-LW-1pm"/>
+                <constraint firstItem="p9n-aR-s8F" firstAttribute="centerY" secondItem="CaK-K7-tXr" secondAttribute="centerY" id="wGe-36-Bsc"/>
+                <constraint firstAttribute="centerX" secondItem="9sN-61-wg4" secondAttribute="centerX" id="yfJ-KG-t2R"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Chevron-Left-White-40px" width="40" height="40"/>
+        <image name="Chevron-Right-White-40px" width="40" height="40"/>
+        <image name="cart3" width="66" height="66"/>
+        <image name="question" width="170" height="170"/>
+    </resources>
+</document>

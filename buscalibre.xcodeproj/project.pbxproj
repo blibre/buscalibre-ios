@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207F5A8C1F41E8C000173108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 207F5A8B1F41E8C000173108 /* main.m */; };
+		207F5A8F1F41E8C000173108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 207F5A8E1F41E8C000173108 /* AppDelegate.m */; };
+		207F5A951F41E8C000173108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207F5A931F41E8C000173108 /* Main.storyboard */; };
+		207F5A9A1F41E8C000173108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207F5A981F41E8C000173108 /* LaunchScreen.storyboard */; };
+		664495B1610D33DD3DC5E990 /* libPods-buscalibre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5D719B40EEC112510DA5B6 /* libPods-buscalibre.a */; };
+		CE64FD8420A4E10500883575 /* MyUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE64FD8320A4E10500883575 /* MyUINavigationController.m */; };
+		CE7063AD2087D53F002B01D6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7063AC2087D53F002B01D6 /* TableViewController.m */; };
+		CE7063B02087E40B002B01D6 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7063AF2087E40B002B01D6 /* TableViewCell.m */; };
+		CE7C6119211DF98B000C4E45 /* ISBNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7C6118211DF98B000C4E45 /* ISBNViewController.m */; };
+		CE90B84C20E425B900C4EED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE90B84B20E425B900C4EED8 /* Assets.xcassets */; };
+		CE98A83920E150050057990C /* QuickstartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE98A83820E150050057990C /* QuickstartViewController.m */; };
+		CE98A83C20E151AE0057990C /* QuickstartPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE98A83B20E151AE0057990C /* QuickstartPageViewController.m */; };
+		CEEE9E7C2141BD9F00E2865E /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE9E7B2141BD9F00E2865E /* SearchViewController.m */; };
+		F40A62EF1F59DDE50086FEDA /* BUSShipmentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F40A62ED1F59DDE50086FEDA /* BUSShipmentCollectionViewCell.m */; };
+		F40A62F01F59DDE50086FEDA /* BUSShipmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F40A62EE1F59DDE50086FEDA /* BUSShipmentCollectionViewCell.xib */; };
+		F40AA0571F60B34000D8E8E7 /* UIView+BUSViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F40AA0561F60B34000D8E8E7 /* UIView+BUSViewHelper.m */; };
+		F41271611F5D9F7600A974BD /* UIColor+BUSCustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F41271601F5D9F7600A974BD /* UIColor+BUSCustomColors.m */; };
+		F41371C31F4203F40055BFD8 /* BUSMainBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41371C21F4203F40055BFD8 /* BUSMainBrowserViewController.m */; };
+		F41371C61F4238010055BFD8 /* BUSStoreSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41371C51F4238010055BFD8 /* BUSStoreSelectionViewController.m */; };
+		F41371C91F4256940055BFD8 /* BUSItemDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41371C81F4256940055BFD8 /* BUSItemDetailsView.m */; };
+		F41371CB1F4256A20055BFD8 /* BUSItemDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41371CA1F4256A20055BFD8 /* BUSItemDetailsView.xib */; };
+		F44404EB1F66CFD100A14C50 /* BUSItemSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = F44404EA1F66CFD100A14C50 /* BUSItemSearch.m */; };
+		F477B6BB1F5F1C90000B363B /* UIViewController+BUSViewControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F477B6BA1F5F1C90000B363B /* UIViewController+BUSViewControllerHelper.m */; };
+		F477B6BE1F5F2891000B363B /* UILabel+BUSLabelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F477B6BD1F5F2891000B363B /* UILabel+BUSLabelHelper.m */; };
+		F49F77A81F4F72AA0016F797 /* BUSWebContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F77A71F4F72AA0016F797 /* BUSWebContentView.m */; };
+		F49F77AA1F4F72B70016F797 /* BUSWebContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49F77A91F4F72B70016F797 /* BUSWebContentView.xib */; };
+		F4DDEC291F506BDC0096D072 /* NSString+BUSStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DDEC281F506BDC0096D072 /* NSString+BUSStringHelper.m */; };
+		F4ED35451F57510800FA6E97 /* BUSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED35441F57510800FA6E97 /* BUSItem.m */; };
+		F4ED354B1F575E1E00FA6E97 /* BUSItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED354A1F575E1E00FA6E97 /* BUSItemManager.m */; };
+		F4ED354E1F576BC400FA6E97 /* BUSApiConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED354D1F576BC400FA6E97 /* BUSApiConnector.m */; };
+		F4ED35511F57707D00FA6E97 /* BUSApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED35501F57707D00FA6E97 /* BUSApiManager.m */; };
+		F4FEE69B1F4F5328004BFB89 /* BUSTopNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FEE69A1F4F5328004BFB89 /* BUSTopNavigationView.m */; };
+		F4FEE69D1F4F5338004BFB89 /* BUSTopNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FEE69C1F4F5338004BFB89 /* BUSTopNavigationView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D8DCDD28C75983F768AEDCD /* Pods-buscalibre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buscalibre.release.xcconfig"; path = "Pods/Target Support Files/Pods-buscalibre/Pods-buscalibre.release.xcconfig"; sourceTree = "<group>"; };
+		207F5A871F41E8C000173108 /* buscalibre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buscalibre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207F5A8B1F41E8C000173108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		207F5A8D1F41E8C000173108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		207F5A8E1F41E8C000173108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		207F5A941F41E8C000173108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		207F5A991F41E8C000173108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		207F5A9B1F41E8C000173108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD1AAC532ED73C76E050A3F /* Pods-buscalibre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buscalibre.debug.xcconfig"; path = "Pods/Target Support Files/Pods-buscalibre/Pods-buscalibre.debug.xcconfig"; sourceTree = "<group>"; };
+		5E5D719B40EEC112510DA5B6 /* libPods-buscalibre.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-buscalibre.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE64FD8220A4E10500883575 /* MyUINavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUINavigationController.h; sourceTree = "<group>"; };
+		CE64FD8320A4E10500883575 /* MyUINavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUINavigationController.m; sourceTree = "<group>"; };
+		CE7063AB2087D53F002B01D6 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CE7063AC2087D53F002B01D6 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		CE7063AE2087E40B002B01D6 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		CE7063AF2087E40B002B01D6 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		CE7C6117211DF98B000C4E45 /* ISBNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISBNViewController.h; sourceTree = "<group>"; };
+		CE7C6118211DF98B000C4E45 /* ISBNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISBNViewController.m; sourceTree = "<group>"; };
+		CE90B84B20E425B900C4EED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE98A83720E150050057990C /* QuickstartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickstartViewController.h; sourceTree = "<group>"; };
+		CE98A83820E150050057990C /* QuickstartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickstartViewController.m; sourceTree = "<group>"; };
+		CE98A83A20E151AE0057990C /* QuickstartPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickstartPageViewController.h; sourceTree = "<group>"; };
+		CE98A83B20E151AE0057990C /* QuickstartPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickstartPageViewController.m; sourceTree = "<group>"; };
+		CEEE9E7A2141BD9F00E2865E /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		CEEE9E7B2141BD9F00E2865E /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		F40A62EC1F59DDE50086FEDA /* BUSShipmentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUSShipmentCollectionViewCell.h; path = Views/BUSShipmentCollectionViewCell.h; sourceTree = "<group>"; };
+		F40A62ED1F59DDE50086FEDA /* BUSShipmentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUSShipmentCollectionViewCell.m; path = Views/BUSShipmentCollectionViewCell.m; sourceTree = "<group>"; };
+		F40A62EE1F59DDE50086FEDA /* BUSShipmentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BUSShipmentCollectionViewCell.xib; path = Views/BUSShipmentCollectionViewCell.xib; sourceTree = "<group>"; };
+		F40AA0551F60B34000D8E8E7 /* UIView+BUSViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+BUSViewHelper.h"; path = "Others/UIView+BUSViewHelper.h"; sourceTree = "<group>"; };
+		F40AA0561F60B34000D8E8E7 /* UIView+BUSViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+BUSViewHelper.m"; path = "Others/UIView+BUSViewHelper.m"; sourceTree = "<group>"; };
+		F412715F1F5D9F7600A974BD /* UIColor+BUSCustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+BUSCustomColors.h"; path = "Others/UIColor+BUSCustomColors.h"; sourceTree = "<group>"; };
+		F41271601F5D9F7600A974BD /* UIColor+BUSCustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BUSCustomColors.m"; path = "Others/UIColor+BUSCustomColors.m"; sourceTree = "<group>"; };
+		F41371C11F4203F40055BFD8 /* BUSMainBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUSMainBrowserViewController.h; path = Controllers/BUSMainBrowserViewController.h; sourceTree = "<group>"; };
+		F41371C21F4203F40055BFD8 /* BUSMainBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUSMainBrowserViewController.m; path = Controllers/BUSMainBrowserViewController.m; sourceTree = "<group>"; };
+		F41371C41F4238010055BFD8 /* BUSStoreSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUSStoreSelectionViewController.h; path = Controllers/BUSStoreSelectionViewController.h; sourceTree = "<group>"; };
+		F41371C51F4238010055BFD8 /* BUSStoreSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUSStoreSelectionViewController.m; path = Controllers/BUSStoreSelectionViewController.m; sourceTree = "<group>"; };
+		F41371C71F4256940055BFD8 /* BUSItemDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUSItemDetailsView.h; path = Views/BUSItemDetailsView.h; sourceTree = "<group>"; };
+		F41371C81F4256940055BFD8 /* BUSItemDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUSItemDetailsView.m; path = Views/BUSItemDetailsView.m; sourceTree = "<group>"; };
+		F41371CA1F4256A20055BFD8 /* BUSItemDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BUSItemDetailsView.xib; path = Views/BUSItemDetailsView.xib; sourceTree = "<group>"; };
+		F422676A1F5858F2001C153D /* BUSApiResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BUSApiResult.h; path = Models/BUSApiResult.h; sourceTree = "<group>"; };
+		F44404E91F66CFD100A14C50 /* BUSItemSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUSItemSearch.h; path = Models/Item/BUSItemSearch.h; sourceTree = "<group>"; };
+		F44404EA1F66CFD100A14C50 /* BUSItemSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUSItemSearch.m; path = Models/Item/BUSItemSearch.m; sourceTree = "<group>"; };
+		F477B6B91F5F1C90000B363B /* UIViewController+BUSViewControllerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BUSViewControllerHelper.h"; path = "Others/UIViewController+BUSViewControllerHelper.h"; sourceTree = "<group>"; };
+		F477B6BA1F5F1C90000B363B /* UIViewController+BUSViewControllerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BUSViewControllerHelper.m"; path = "Others/UIViewController+BUSViewControllerHelper.m"; sourceTree = "<group>"; };
+		F477B6BC1F5F2891000B363B /* UILabel+BUSLabelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+BUSLabelHelper.h"; path = "Others/UILabel+BUSLabelHelper.h"; sourceTree = "<group>"; };
+		F477B6BD1F5F2891000B363B /* UILabel+BUSLabelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+BUSLabelHelper.m"; path = "Others/UILabel+BUSLabelHelper.m"; sourceTree = "<group>"; };
+		F49F77A61F4F72AA0016F797 /* BUSWebContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUSWebContentView.h; path = Views/BUSWebContentView.h; sourceTree = "<group>"; };
+		F49F77A71F4F72AA0016F797 /* BUSWebContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUSWebContentView.m; path = Views/BUSWebContentView.m; sourceTree = "<group>"; };
+		F49F77A91F4F72B70016F797 /* BUSWebContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BUSWebContentView.xib; path = Views/BUSWebContentView.xib; sourceTree = "<group>"; };
+		F4DDEC271F506BDC0096D072 /* NSString+BUSStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+BUSStringHelper.h"; path = "Others/NSString+BUSStringHelper.h"; sourceTree = "<group>"; };
+		F4DDEC281F506BDC0096D072 /* NSString+BUSStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+BUSStringHelper.m"; path = "Others/NSString+BUSStringHelper.m"; sourceTree = "<group>"; };
+		F4ED35431F57510800FA6E97 /* BUSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUSItem.h; path = Models/Item/BUSItem.h; sourceTree = "<group>"; };
+		F4ED35441F57510800FA6E97 /* BUSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUSItem.m; path = Models/Item/BUSItem.m; sourceTree = "<group>"; };
+		F4ED35461F575A6900FA6E97 /* BUSItemTransportType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BUSItemTransportType.h; path = Models/Item/BUSItemTransportType.h; sourceTree = "<group>"; };
+		F4ED35471F575B0700FA6E97 /* BUSItemConditionType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BUSItemConditionType.h; path = Models/Item/BUSItemConditionType.h; sourceTree = "<group>"; };
+		F4ED35491F575E1E00FA6E97 /* BUSItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUSItemManager.h; path = Models/Item/BUSItemManager.h; sourceTree = "<group>"; };
+		F4ED354A1F575E1E00FA6E97 /* BUSItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUSItemManager.m; path = Models/Item/BUSItemManager.m; sourceTree = "<group>"; };
+		F4ED354C1F576BC400FA6E97 /* BUSApiConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUSApiConnector.h; path = Models/BUSApiConnector.h; sourceTree = "<group>"; };
+		F4ED354D1F576BC400FA6E97 /* BUSApiConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUSApiConnector.m; path = Models/BUSApiConnector.m; sourceTree = "<group>"; };
+		F4ED354F1F57707D00FA6E97 /* BUSApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUSApiManager.h; path = Models/BUSApiManager.h; sourceTree = "<group>"; };
+		F4ED35501F57707D00FA6E97 /* BUSApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUSApiManager.m; path = Models/BUSApiManager.m; sourceTree = "<group>"; };
+		F4FEE6991F4F5328004BFB89 /* BUSTopNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUSTopNavigationView.h; path = Views/BUSTopNavigationView.h; sourceTree = "<group>"; };
+		F4FEE69A1F4F5328004BFB89 /* BUSTopNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUSTopNavigationView.m; path = Views/BUSTopNavigationView.m; sourceTree = "<group>"; };
+		F4FEE69C1F4F5338004BFB89 /* BUSTopNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BUSTopNavigationView.xib; path = Views/BUSTopNavigationView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207F5A841F41E8BF00173108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664495B1610D33DD3DC5E990 /* libPods-buscalibre.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207F5A7E1F41E8BF00173108 = {
+			isa = PBXGroup;
+			children = (
+				207F5A891F41E8C000173108 /* Buscalibre */,
+				207F5A881F41E8C000173108 /* Products */,
+				8A0F5E64BA7CFE3520F89136 /* Pods */,
+				AF81C0118C1294369F7CD6C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		207F5A881F41E8C000173108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207F5A871F41E8C000173108 /* buscalibre.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		207F5A891F41E8C000173108 /* Buscalibre */ = {
+			isa = PBXGroup;
+			children = (
+				CE90B84B20E425B900C4EED8 /* Assets.xcassets */,
+				207F5A8D1F41E8C000173108 /* AppDelegate.h */,
+				207F5A8E1F41E8C000173108 /* AppDelegate.m */,
+				F4FEE6921F4F4ED5004BFB89 /* Controllers */,
+				F4ED35421F5748EE00FA6E97 /* Models */,
+				F4DDEC261F506B880096D072 /* Others */,
+				F4FEE6931F4F4EE0004BFB89 /* Views */,
+				207F5A931F41E8C000173108 /* Main.storyboard */,
+				207F5A981F41E8C000173108 /* LaunchScreen.storyboard */,
+				207F5A9B1F41E8C000173108 /* Info.plist */,
+				207F5A8A1F41E8C000173108 /* Supporting Files */,
+			);
+			path = Buscalibre;
+			sourceTree = "<group>";
+		};
+		207F5A8A1F41E8C000173108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				207F5A8B1F41E8C000173108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A0F5E64BA7CFE3520F89136 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1AAC532ED73C76E050A3F /* Pods-buscalibre.debug.xcconfig */,
+				1D8DCDD28C75983F768AEDCD /* Pods-buscalibre.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF81C0118C1294369F7CD6C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5D719B40EEC112510DA5B6 /* libPods-buscalibre.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F40A62E51F59DAC50086FEDA /* TopNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				F4FEE6991F4F5328004BFB89 /* BUSTopNavigationView.h */,
+				F4FEE69A1F4F5328004BFB89 /* BUSTopNavigationView.m */,
+				F4FEE69C1F4F5338004BFB89 /* BUSTopNavigationView.xib */,
+			);
+			name = TopNavigation;
+			sourceTree = "<group>";
+		};
+		F40A62E61F59DAD60086FEDA /* ItemDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F41371C71F4256940055BFD8 /* BUSItemDetailsView.h */,
+				F41371C81F4256940055BFD8 /* BUSItemDetailsView.m */,
+				F41371CA1F4256A20055BFD8 /* BUSItemDetailsView.xib */,
+				F40A62EB1F59DD7E0086FEDA /* Cells */,
+			);
+			name = ItemDetails;
+			sourceTree = "<group>";
+		};
+		F40A62E71F59DAE30086FEDA /* WebContent */ = {
+			isa = PBXGroup;
+			children = (
+				F49F77A61F4F72AA0016F797 /* BUSWebContentView.h */,
+				F49F77A71F4F72AA0016F797 /* BUSWebContentView.m */,
+				F49F77A91F4F72B70016F797 /* BUSWebContentView.xib */,
+			);
+			name = WebContent;
+			sourceTree = "<group>";
+		};
+		F40A62EB1F59DD7E0086FEDA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F40A62EC1F59DDE50086FEDA /* BUSShipmentCollectionViewCell.h */,
+				F40A62ED1F59DDE50086FEDA /* BUSShipmentCollectionViewCell.m */,
+				F40A62EE1F59DDE50086FEDA /* BUSShipmentCollectionViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		F4DDEC261F506B880096D072 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDEC271F506BDC0096D072 /* NSString+BUSStringHelper.h */,
+				F4DDEC281F506BDC0096D072 /* NSString+BUSStringHelper.m */,
+				F412715F1F5D9F7600A974BD /* UIColor+BUSCustomColors.h */,
+				F41271601F5D9F7600A974BD /* UIColor+BUSCustomColors.m */,
+				F477B6B91F5F1C90000B363B /* UIViewController+BUSViewControllerHelper.h */,
+				F477B6BA1F5F1C90000B363B /* UIViewController+BUSViewControllerHelper.m */,
+				F477B6BC1F5F2891000B363B /* UILabel+BUSLabelHelper.h */,
+				F477B6BD1F5F2891000B363B /* UILabel+BUSLabelHelper.m */,
+				F40AA0551F60B34000D8E8E7 /* UIView+BUSViewHelper.h */,
+				F40AA0561F60B34000D8E8E7 /* UIView+BUSViewHelper.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		F4ED35421F5748EE00FA6E97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4ED354C1F576BC400FA6E97 /* BUSApiConnector.h */,
+				F4ED354D1F576BC400FA6E97 /* BUSApiConnector.m */,
+				F4ED354F1F57707D00FA6E97 /* BUSApiManager.h */,
+				F4ED35501F57707D00FA6E97 /* BUSApiManager.m */,
+				F422676A1F5858F2001C153D /* BUSApiResult.h */,
+				F4ED35481F575D0D00FA6E97 /* Item */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F4ED35481F575D0D00FA6E97 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				F4ED35491F575E1E00FA6E97 /* BUSItemManager.h */,
+				F4ED354A1F575E1E00FA6E97 /* BUSItemManager.m */,
+				F4ED35431F57510800FA6E97 /* BUSItem.h */,
+				F4ED35441F57510800FA6E97 /* BUSItem.m */,
+				F4ED35461F575A6900FA6E97 /* BUSItemTransportType.h */,
+				F4ED35471F575B0700FA6E97 /* BUSItemConditionType.h */,
+				F44404E91F66CFD100A14C50 /* BUSItemSearch.h */,
+				F44404EA1F66CFD100A14C50 /* BUSItemSearch.m */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		F4FEE6921F4F4ED5004BFB89 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE7063AE2087E40B002B01D6 /* TableViewCell.h */,
+				CE7063AF2087E40B002B01D6 /* TableViewCell.m */,
+				CE7063AB2087D53F002B01D6 /* TableViewController.h */,
+				CE7063AC2087D53F002B01D6 /* TableViewController.m */,
+				F41371C11F4203F40055BFD8 /* BUSMainBrowserViewController.h */,
+				F41371C21F4203F40055BFD8 /* BUSMainBrowserViewController.m */,
+				F41371C41F4238010055BFD8 /* BUSStoreSelectionViewController.h */,
+				F41371C51F4238010055BFD8 /* BUSStoreSelectionViewController.m */,
+				CE64FD8220A4E10500883575 /* MyUINavigationController.h */,
+				CE64FD8320A4E10500883575 /* MyUINavigationController.m */,
+				CE98A83720E150050057990C /* QuickstartViewController.h */,
+				CE98A83820E150050057990C /* QuickstartViewController.m */,
+				CE98A83A20E151AE0057990C /* QuickstartPageViewController.h */,
+				CE98A83B20E151AE0057990C /* QuickstartPageViewController.m */,
+				CE7C6117211DF98B000C4E45 /* ISBNViewController.h */,
+				CE7C6118211DF98B000C4E45 /* ISBNViewController.m */,
+				CEEE9E7A2141BD9F00E2865E /* SearchViewController.h */,
+				CEEE9E7B2141BD9F00E2865E /* SearchViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F4FEE6931F4F4EE0004BFB89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F40A62E61F59DAD60086FEDA /* ItemDetails */,
+				F40A62E51F59DAC50086FEDA /* TopNavigation */,
+				F40A62E71F59DAE30086FEDA /* WebContent */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207F5A861F41E8BF00173108 /* buscalibre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207F5A9E1F41E8C000173108 /* Build configuration list for PBXNativeTarget "buscalibre" */;
+			buildPhases = (
+				A530107198AA43BF7D2782B9 /* [CP] Check Pods Manifest.lock */,
+				207F5A831F41E8BF00173108 /* Sources */,
+				207F5A841F41E8BF00173108 /* Frameworks */,
+				207F5A851F41E8BF00173108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buscalibre;
+			productName = buscalibre;
+			productReference = 207F5A871F41E8C000173108 /* buscalibre.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207F5A7F1F41E8BF00173108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BUS;
+				KnownAssetTags = (
+					MainBrowser,
+				);
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = buscalibre;
+				TargetAttributes = {
+					207F5A861F41E8BF00173108 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 65VL498RYX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 207F5A821F41E8BF00173108 /* Build configuration list for PBXProject "buscalibre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207F5A7E1F41E8BF00173108;
+			productRefGroup = 207F5A881F41E8C000173108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				207F5A861F41E8BF00173108 /* buscalibre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		207F5A851F41E8BF00173108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207F5A9A1F41E8C000173108 /* LaunchScreen.storyboard in Resources */,
+				F4FEE69D1F4F5338004BFB89 /* BUSTopNavigationView.xib in Resources */,
+				F41371CB1F4256A20055BFD8 /* BUSItemDetailsView.xib in Resources */,
+				F40A62F01F59DDE50086FEDA /* BUSShipmentCollectionViewCell.xib in Resources */,
+				CE90B84C20E425B900C4EED8 /* Assets.xcassets in Resources */,
+				F49F77AA1F4F72B70016F797 /* BUSWebContentView.xib in Resources */,
+				207F5A951F41E8C000173108 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A530107198AA43BF7D2782B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-buscalibre-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		207F5A831F41E8BF00173108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ED354E1F576BC400FA6E97 /* BUSApiConnector.m in Sources */,
+				CE64FD8420A4E10500883575 /* MyUINavigationController.m in Sources */,
+				CE7C6119211DF98B000C4E45 /* ISBNViewController.m in Sources */,
+				F4ED35511F57707D00FA6E97 /* BUSApiManager.m in Sources */,
+				F477B6BB1F5F1C90000B363B /* UIViewController+BUSViewControllerHelper.m in Sources */,
+				F40AA0571F60B34000D8E8E7 /* UIView+BUSViewHelper.m in Sources */,
+				F40A62EF1F59DDE50086FEDA /* BUSShipmentCollectionViewCell.m in Sources */,
+				F41371C61F4238010055BFD8 /* BUSStoreSelectionViewController.m in Sources */,
+				F49F77A81F4F72AA0016F797 /* BUSWebContentView.m in Sources */,
+				F477B6BE1F5F2891000B363B /* UILabel+BUSLabelHelper.m in Sources */,
+				F4FEE69B1F4F5328004BFB89 /* BUSTopNavigationView.m in Sources */,
+				207F5A8F1F41E8C000173108 /* AppDelegate.m in Sources */,
+				CEEE9E7C2141BD9F00E2865E /* SearchViewController.m in Sources */,
+				207F5A8C1F41E8C000173108 /* main.m in Sources */,
+				CE98A83C20E151AE0057990C /* QuickstartPageViewController.m in Sources */,
+				F4DDEC291F506BDC0096D072 /* NSString+BUSStringHelper.m in Sources */,
+				F44404EB1F66CFD100A14C50 /* BUSItemSearch.m in Sources */,
+				CE7063B02087E40B002B01D6 /* TableViewCell.m in Sources */,
+				CE98A83920E150050057990C /* QuickstartViewController.m in Sources */,
+				F41371C31F4203F40055BFD8 /* BUSMainBrowserViewController.m in Sources */,
+				F4ED35451F57510800FA6E97 /* BUSItem.m in Sources */,
+				F41371C91F4256940055BFD8 /* BUSItemDetailsView.m in Sources */,
+				CE7063AD2087D53F002B01D6 /* TableViewController.m in Sources */,
+				F4ED354B1F575E1E00FA6E97 /* BUSItemManager.m in Sources */,
+				F41271611F5D9F7600A974BD /* UIColor+BUSCustomColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		207F5A931F41E8C000173108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207F5A941F41E8C000173108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		207F5A981F41E8C000173108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207F5A991F41E8C000173108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		207F5A9C1F41E8C000173108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		207F5A9D1F41E8C000173108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		207F5A9F1F41E8C000173108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD1AAC532ED73C76E050A3F /* Pods-buscalibre.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65VL498RYX;
+				INFOPLIST_FILE = buscalibre/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buscalibre.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		207F5AA01F41E8C000173108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8DCDD28C75983F768AEDCD /* Pods-buscalibre.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65VL498RYX;
+				INFOPLIST_FILE = buscalibre/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buscalibre.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207F5A821F41E8BF00173108 /* Build configuration list for PBXProject "buscalibre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207F5A9C1F41E8C000173108 /* Debug */,
+				207F5A9D1F41E8C000173108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207F5A9E1F41E8C000173108 /* Build configuration list for PBXNativeTarget "buscalibre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207F5A9F1F41E8C000173108 /* Debug */,
+				207F5AA01F41E8C000173108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 207F5A7F1F41E8BF00173108 /* Project object */;
+}
